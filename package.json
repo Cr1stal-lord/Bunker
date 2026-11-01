@@ -1,0 +1,1 @@
+{"name":"bunker-game","version":"1.0.0","description":"Игра Бункер онлайн","main":"server.js","scripts":{"start":"node server.js"},"engines":{"node":">=18"},"license":"MIT"}
