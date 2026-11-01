@@ -116,6 +116,35 @@ button:not(.sm):hover{filter:brightness(1.1)}
 tr:not(.me):not(.sel):nth-child(even) td:not(:first-child){background:#ffffff06}
 #toast{background:#101a14;border-color:var(--ac)}
 @media(max-width:420px){.big i{width:48px;height:60px;font-size:34px}.stamp{font-size:38px}}
+.book{max-width:520px;margin:12px auto;perspective:1400px}
+.book.fr .sheet{transform-origin:left center;animation:ffr .5s}.book.fl .sheet{transform-origin:right center;animation:ffl .5s}
+@keyframes ffr{from{transform:rotateY(-75deg);opacity:.2}}@keyframes ffl{from{transform:rotateY(75deg);opacity:.2}}
+.sheet{background:#d6c5a8;border:7px solid #8e84c6;border-radius:22px;padding:18px 16px 20px;color:#1b2236;font-family:Georgia,"Roboto Slab",serif;box-shadow:0 14px 40px #000a,inset 0 0 40px #8a735233;min-height:60vh}
+.sheet h2{font-size:15px;text-transform:uppercase;letter-spacing:.14em;text-align:center;margin:18px 0 10px;color:#4a3f86}.sheet h2:first-child{margin-top:4px}
+.sheet button{margin:0}.sheet .hint{color:#4a3f86;font-size:12px}
+.cover{background:#f5f2ea;border-color:#b79f78;text-align:center;position:relative;padding-top:30px}
+.stamp2{position:absolute;top:12px;right:14px;font-size:10px;border:1px solid #555;padding:2px 6px;color:#555}
+.cover h1{font:700 58px Georgia,serif;letter-spacing:.06em;margin:36px 0 4px;color:#111}.cn{font-size:20px;font-style:italic;color:#333}
+.cl{height:1px;background:#222;margin:18px 12% 0}.cdl{margin-top:30px;font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:#666}
+.cdw{display:flex;gap:10px;justify-content:center;margin:8px 0 26px}.cdw i{font:700 38px Georgia,serif;font-style:normal;width:54px;height:66px;display:grid;place-items:center;border:2px solid #222;border-radius:8px;background:#fff}
+.what{text-align:left;border-top:2px dashed #999;padding-top:14px}.what b{display:block;color:#a3281f;text-transform:uppercase;font-size:14px;letter-spacing:.06em}.what p{margin:6px 0 0;line-height:1.5}
+.ordl{display:grid;grid-template-columns:1fr 1fr;gap:6px}.oi{display:flex;align-items:center;background:#ffffff70;border-radius:10px;padding:6px 8px;font-weight:600;font-size:14px}.oi b{width:24px;font-size:18px;color:#4a3f86}.oi.out{opacity:.4;text-decoration:line-through}
+.bd{text-align:center;font-style:italic;margin:0 0 10px}.chips{display:flex;flex-wrap:wrap;gap:8px;justify-content:center}.chips span{background:#8e84c6;color:#fff;border-radius:99px;padding:6px 13px;font-weight:700;font-size:14px}.chips .bad2{background:#b8372d}
+.sheet .rooms{margin-top:6px}.sheet .rm{background:#ffffff70;color:#1b2236}.sheet .rm span{color:#4a4560}
+.dh{display:flex;justify-content:space-between;align-items:center;background:#8e84c6;margin:-18px -16px 0;padding:12px 16px;border-radius:14px 14px 0 0;color:#1b2236;font-weight:700;letter-spacing:.1em;text-transform:uppercase;font-size:14px}.dh em{background:#b8372d;color:#fff;padding:2px 10px;border-radius:6px;font-size:11px;font-style:normal}
+.dn{text-align:center;font-size:22px;font-weight:700;margin:16px 0 2px}.dn .av2{width:34px;height:34px}.prof{text-align:center;font-size:20px;font-weight:700;background:#b4a8e8;margin:8px -16px 14px;padding:10px;letter-spacing:.04em}
+.al2{font-size:12px;text-transform:uppercase;letter-spacing:.14em;font-weight:700;color:#4a3f86;margin:12px 0 4px;display:flex;gap:8px;align-items:center}
+.blk{display:flex;align-items:center;gap:12px;background:var(--c);border-radius:10px;padding:10px 12px;min-height:62px;border:2px solid #0002}.blk.hid{background:#9a978f;color:#555;filter:grayscale(1)}
+.bi{font-size:30px;flex:none}.bv{flex:1;font-weight:700;letter-spacing:.03em;line-height:1.3}.blk .lk{background:#fff8!important;border-radius:50%;padding:8px}.sheet .ib{background:#4a3f86!important;color:#fff}
+.sig{margin-top:18px;border-top:2px solid #1b2236;padding-top:6px;min-height:76px;position:relative}.sl{font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:#6a6288}
+.sv{display:flex;gap:6px 14px;flex-wrap:wrap;align-items:center;min-height:42px}.sv i{font:italic 26px "Brush Script MT","Segoe Script",cursive;color:#1a2e8a;transform:rotate(-4deg)}.sv small{color:#7a7390}
+.sig.act{cursor:pointer;background:#ffffff40;border-radius:0 0 10px 10px;outline:2px dashed #b8372d;outline-offset:2px}
+.sheet.out{filter:grayscale(.8)}.sheet.out:after{content:"ИСКЛЮЧЁН";position:absolute;top:40%;left:50%;transform:translate(-50%,-50%) rotate(-14deg);font:900 40px "Courier New",monospace;color:#b8372d;border:5px solid #b8372d;padding:4px 14px;border-radius:8px;opacity:.85}.sheet.dos{position:relative}
+.sgp p{text-align:center;margin:0 0 12px}.sgl{display:flex;align-items:center;border-bottom:2px solid #1b2236;padding:10px 4px;margin-top:8px;font-weight:700}.sgl span{flex:1}.sgl i{font:italic 28px "Brush Script MT","Segoe Script",cursive;color:#1a2e8a;transform:rotate(-4deg);min-width:90px;text-align:right}
+.sgl[data-sg]{cursor:pointer;background:#ffffff40;outline:2px dashed #b8372d}.cnt{text-align:center;margin:16px 0 4px;font-weight:700;color:#4a3f86}.sv2{text-align:center}.sgp .surv{color:#1b2236}
+.nav{display:flex;align-items:center;gap:8px;max-width:520px;margin:14px auto}.arr{width:54px;padding:14px 0;background:#8e84c6;color:#1b2236;border:2px solid #1b2236;font-size:20px;margin:0;flex:none}
+.tabs{flex:1;display:flex;gap:6px;overflow-x:auto;padding:2px}.tb{width:auto;flex:none;min-width:42px;margin:0;padding:10px;background:#d6c5a8;color:#4a3f86;border:2px solid #8e84c6}.tb.on{background:#8e84c6;color:#fff}.tb.pulse{animation:pu 1s infinite}@keyframes pu{50%{box-shadow:0 0 0 4px #b8372d88}}
+.nums{display:flex;gap:8px;flex-wrap:wrap;justify-content:center;margin-top:12px}.nb{width:48px;height:48px;padding:0;margin:0;border-radius:12px;background:#16201a;color:var(--tx);border:1px solid var(--line);font:700 20px "Courier New",monospace}.nb.on{background:var(--ac);color:#111}
 </style>
 </head>
 <body>
@@ -146,7 +175,7 @@ function gen(){const o={bio:pick(['Мужчина','Женщина'])+', '+(()=>
  for(const k in D)o[k]=pick(D[k]);
  if(!o.fear.startsWith('Нет'))o.fear='Боязнь '+o.fear[0].toLowerCase()+o.fear.slice(1);return o}
 function mkBk(n){let s=Math.round(n*(.3+Math.random()*.4));s=Math.min(n-1,Math.max(1,s));
- const du=6+Math.random()*114|0,fo=Math.max(3,Math.round(du*(.5+Math.random()*.9))),b=pick(BK);
+ const du=6+Math.random()*114|0,fo=Math.max(2,Math.round(du*(.35+Math.random()*.5))),b=pick(BK);
  const rm=[...RM].sort(()=>Math.random()-.5).slice(0,3+(Math.random()*2|0)).map(r=>[r,pick(SK)]);
  return{s,b:{n:b[0],d:b[1],a:Math.round(s*(20+Math.random()*60)/10)*10+30,du,fo,rm}}}
 const nn=(n,w)=>{n=Math.abs(n)%100;const d=n%10;return n>10&&n<20?w[2]:d>1&&d<5?w[1]:d==1?w[0]:w[2]};const rc=()=>Array.from({length:3},()=>'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789'[Math.random()*62|0]).join('');
@@ -157,6 +186,43 @@ const av=n=>{let h=0;for(const ch of String(n))h=(h*31+ch.charCodeAt(0))%360;ret
 const invite=async()=>{const u=location.origin+'/?r='+code;try{if(navigator.share){await navigator.share({title:'Бункер',text:'Играем в Бункер! Код комнаты: '+code,url:u});return}await navigator.clipboard.writeText(u);toast('Ссылка-приглашение скопирована')}catch(e){toast('Код комнаты: '+code)}};
 function confetti(){const c=['#ffb62e','#5fd38d','#4da3ff','#e5534b','#fff'];for(let i=0;i<60;i++){const e=document.createElement('i');e.className='cf';e.style.cssText=`left:${Math.random()*100}vw;background:${pick(c)};animation-duration:${2+Math.random()*2.5}s;animation-delay:${Math.random()*.8}s`;document.body.appendChild(e);setTimeout(()=>e.remove(),5800)}}
 function splash(H){const nm=(H.res.split(': ')[1]||'').split(' (')[0],end=H.ph==='end';sfx('out');const d=document.createElement('div');d.className='sp';d.innerHTML=`<div class="stamp">ИСКЛЮЧЁН</div><div class="spn">${esc(nm)}</div>${end?'<div class="spe">🔒 Бункер закрыт. Выжившие определены!</div>':''}`;d.onclick=()=>d.remove();document.body.appendChild(d);if(end)setTimeout(()=>{sfx('win');confetti()},900);setTimeout(()=>d.remove(),end?4200:2600)}
+let pg=0,dir='',tl=0;
+const mkOrd=pl=>{const used=new Set(),a=[],rest=[];[...pl].sort((x,y)=>(x.presence.no||99)-(y.presence.no||99)||(x.peer<y.peer?-1:1)).forEach(p=>{const n=p.presence.no;if(n&&n<=pl.length&&!used.has(n)){used.add(n);a[n-1]=p.peer}else rest.push(p.peer)});rest.sort(()=>Math.random()-.5);for(let i=0;i<pl.length;i++)if(!a[i])a[i]=rest.pop();return a};
+function tally(H,al){const cnt={};al.forEach(p=>{const v=p.presence.v;if(v&&p.presence.vr===H.rd&&al.some(x=>x.peer===v))cnt[v]=(cnt[v]||0)+1});const ids=Object.keys(cnt);if(!ids.length)return toast('Никто ещё не проголосовал');const mx=Math.max(...ids.map(i=>cnt[i])),vic=pick(ids.filter(i=>cnt[i]===mx)),vp=al.find(p=>p.peer===vic),end=al.length-1<=H.seats;room.presence({out:H.out.concat(vic),rd:H.rd+1,ph:end?'end':'play',res:'Исключён из бункера: '+vp.presence.n+' ('+mx+' '+nn(mx,['голос','голоса','голосов'])+')'+(end?'. Бункер заполнен!':'')})}
+const COL={bio:'#9fd8c0',trait:'#f3c58a',hp:'#f2a7b8',hob:'#e8d58a',fear:'#b4c0e6',skill:'#c3b4ee',bag:'#d6c4a2',fact:'#e6b6dc'},ICN={bio:'🧬',trait:'🎭',hp:'❤️',hob:'🎲',fear:'🕷️',skill:'🛠️',bag:'🎒',fact:'📌'};
+function game(H,pl,me,alive,head){
+ const al=pl.filter(alive),meOut=!alive(me),isV=H.ph==='vote',c=CAT[H.cat],b=H.bk,ord=H.ord||[];
+ if(H.res&&H.res!==lastRes){lastRes=H.res;splash(H)}
+ if(pl.some(p=>{const n=Object.keys(p.presence.r||{}).length,o=prevR[p.peer];prevR[p.peer]=n;return o!==undefined&&n>o&&!p.isMe}))sfx('rv');
+ if(!('pro' in me.presence.r))return room.presence({r:Object.assign({},me.presence.r,{pro:card.pro})});
+ if(isHost){if(H.ph==='play'&&al.length>1&&al.every(p=>p.presence.sg===H.rd))return room.presence({ph:'vote'});
+  if(isV&&tl!==H.rd&&al.every(p=>p.presence.vr===H.rd&&p.presence.v)){tl=H.rd;return tally(H,al)}}
+ const Dl=ord.map(id=>pl.find(p=>p.peer===id)).filter(Boolean),T=Dl.length+3,nm=p=>esc(p.presence.n),num=p=>ord.indexOf(p.peer)+1;
+ pg=Math.max(0,Math.min(T-1,pg));const an=dir;dir='';
+ const canRv=H.ph==='play'&&!meOut&&me.presence.rc<H.rd,myv=me.presence.vr===H.rd&&me.presence.v,ok=b.fo>=b.du;
+ let body='';
+ if(pg===0)body=`<div class="sheet cover"><div class="stamp2">скоросшиватель</div><h1>БУНКЕР</h1><div class="cn">${esc(b.n)}</div><div class="cl"></div><div class="cl"></div><div class="cdl">код бункера</div><div class="cdw">${[...code].map(x=>`<i>${x}</i>`).join('')}</div><div class="what"><b>Что произошло: ${esc(c[0])}</b><p>${esc(c[1])}</p></div></div>`;
+ else if(pg===1)body=`<div class="sheet info"><h2>Порядок игроков</h2><div class="ordl">${Dl.map(p=>`<div class="oi ${alive(p)?'':'out'}"><b>${num(p)}</b>${av(p.presence.n)}${nm(p)}</div>`).join('')}</div><h2>Бункер «${esc(b.n)}»</h2><p class="bd">${esc(b.d)}</p><div class="chips"><span>📐 ${b.a} м²</span><span>🪑 ${H.seats} ${nn(H.seats,['место','места','мест'])}</span><span class="${ok?'':'bad2'}">🍞 еды на ${fm(b.fo)}</span><span>⏳ жить ${fm(b.du)}</span></div><h2>Комнаты</h2><div class="rooms">${b.rm.map(([r,t])=>`<div class="rm ${ST[t]}"><i>${{g:'✅',y:'⚠️',b:'🌊',m:'📭',r:'☠️'}[ST[t]]}</i><b>${esc(r)}</b><span>${esc(t)}</span></div>`).join('')}</div></div>`;
+ else if(pg<T-1){const p=Dl[pg-2],o=!alive(p),r=p.presence.r||{},mine=p.isMe,vs=pl.filter(q=>alive(q)&&q.presence.vr===H.rd&&q.presence.v===p.peer&&isV),can=isV&&!o&&!mine&&!meOut;
+  body=`<div class="sheet dos ${o?'out':''}"><div class="dh"><span>Игрок ${num(p)}</span>${mine?'<em>это вы</em>':''}</div><div class="dn">${av(p.presence.n)}${nm(p)}</div><div class="prof">${f0(r.pro||'')}</div><div class="atts">`
+  +KK.map(([k,l])=>{const rv=k in r,val=mine?card[k]:r[k],hs=(mine||rv)&&String(val).includes('~'),ik=p.peer+k;return `<div class="al2">${l}${hs?`<button class="ib" data-ih="${ik}">i</button>`:''}</div><div class="blk ${mine||rv?'':'hid'}" style="--c:${COL[k]}"><span class="bi">${ICN[k]}</span><div class="bv">${mine||rv?fv(val,openH.has(ik)):'скрыто'}</div>${mine?`<button class="lk ${rv?'on':''}" data-rv="${k}">${LK(rv)}</button>`:''}</div>`}).join('')
+  +`</div><div class="sig ${can?'act':''}" ${can?`data-vt="${p.peer}"`:''}><span class="sl">Подписи</span><div class="sv">${vs.map(q=>`<i>${nm(q)}</i>`).join('')||`<small>${can?'нажмите, чтобы поставить подпись':isV?'здесь нельзя':'голосование ещё не началось'}</small>`}</div></div></div>`}
+ else{const sd=al.filter(p=>p.presence.sg===H.rd).length,vd=al.filter(p=>p.presence.vr===H.rd&&p.presence.v).length;
+  body=`<div class="sheet sgp"><h2>Собрание подписей</h2>${H.ph==='end'?`<p>Бункер закрыт. Выжившие:</p><div class="sv2">${al.map(p=>`<span class="surv">${av(p.presence.n)}${nm(p)}</span>`).join('')}</div>`:`<p>${isV?'Идёт голосование. Откройте досье игрока и поставьте подпись под ним.':'Чтобы начать голосование, все игроки ставят подпись. Нажмите на свою строку.'}</p>`}`
+  +al.map(p=>{const sg=p.presence.sg===H.rd||isV;return `<div class="sgl ${sg?'on':''}" ${p.isMe&&H.ph==='play'?'data-sg="1"':''}>${av(p.presence.n)}<span>${nm(p)}</span><i>${sg?nm(p):''}</i></div>`}).join('')
+  +`<div class="cnt">${isV?`Проголосовало: ${vd} из ${al.length}`:`Подписали: ${sd} из ${al.length}`}</div>`+(isHost&&H.ph==='play'&&al.length>1?'<button id="hv">Начать голосование досрочно</button>':'')+(isHost&&isV?'<button id="ht">Подвести итоги</button>':'')+`</div>`}
+ const tabs=[['📁',0],['ℹ️',1],...Dl.map((p,i)=>[i+1,i+2]),['✍️',T-1]];
+ app.className='';app.innerHTML=head+`<div class="book ${an}">${body}</div><div class="nav"><button class="arr" id="pv" ${pg?'':'disabled'}>◀</button><div class="tabs">${tabs.map(([t,i])=>`<button class="tb ${i===pg?'on':''} ${isV&&i===T-1?'pulse':''}" data-pg="${i}">${t}</button>`).join('')}</div><button class="arr" id="nx" ${pg<T-1?'':'disabled'}>▶</button></div>`;
+ const flip=d=>{pg+=d;dir=d>0?'fr':'fl';sfx('click');scrollTo(0,0);render()};
+ $('#lv').onclick=leave;bindHn();$('#pv').onclick=()=>flip(-1);$('#nx').onclick=()=>flip(1);
+ document.querySelectorAll('[data-pg]').forEach(e=>e.onclick=()=>{const i=+e.dataset.pg;dir=i>pg?'fr':'fl';pg=i;render()});
+ document.querySelectorAll('[data-rv]').forEach(e=>e.onclick=()=>{const k=e.dataset.rv;if(k in me.presence.r)return;if(!canRv)return toast(meOut?'Вы исключены':H.ph!=='play'?'Сейчас раскрывать нельзя':'В этом раунде вы уже раскрыли характеристику');sfx('unlock');navigator.vibrate&&navigator.vibrate(30);room.presence({r:Object.assign({},me.presence.r,{[k]:card[k]}),rc:H.rd})});
+ document.querySelectorAll('[data-ih]').forEach(e=>e.onclick=()=>{const k=e.dataset.ih;openH.has(k)?openH.delete(k):openH.add(k);render()});
+ document.querySelectorAll('[data-vt]').forEach(e=>e.onclick=()=>{const t=e.dataset.vt;sfx('vote');room.presence(myv===t?{v:null,vr:0}:{v:t,vr:H.rd})});
+ document.querySelectorAll('[data-sg]').forEach(e=>e.onclick=()=>{sfx('vote');room.presence({sg:me.presence.sg===H.rd?0:H.rd})});
+ if($('#hv'))$('#hv').onclick=()=>room.presence({ph:'vote'});if($('#ht'))$('#ht').onclick=()=>tally(H,al);
+}
+const KK=K.filter(x=>x[0]!=='pro');
 const openH=new Set(),LK=o=>`<svg viewBox="0 0 24 24" width="26" height="26"><rect x="4.5" y="11" width="15" height="10.5" rx="2.2" fill="currentColor"/><path d="${o?'M8 11V7.5a4 4 0 0 1 7.6-1.7':'M8 11V7.5a4 4 0 0 1 8 0V11'}" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></svg>`;
 const fv=(v,show)=>{const[a,b]=String(v).split('~');return esc(a)+(show&&b?`<div class="hint">ℹ ${esc(b)}</div>`:'')};
 const bindHn=()=>{const m=$('#mt');if(m)m.onclick=()=>{mute=!mute;try{localStorage.setItem('bk_mute',mute?'1':'0')}catch(e){}m.textContent=mute?'🔇':'🔊'}};
@@ -203,7 +269,7 @@ async function start(create){
 }
 async function enter(c,create){
  let r;try{r=await R.join(c,create)}catch(e){const m={notfound:'Комната не найдена',started:'Игра уже идёт',full:'Комната заполнена'}[e.code];if(m)toast(m);else if(e.code!=='exists')toast('Нет соединения с сервером');return false}
- room=r;code=c;isHost=create;card=gen();lastRes='';prevR={};
+ room=r;code=c;isHost=create;card=gen();lastRes='';prevR={};pg=0;tl=0;dir='';
  await room.presence(Object.assign({n:name,r:{},v:null,rc:0},create?{h:1,ph:'lobby',rd:0,out:[],seats:0,cat:0,bk:0,res:''}:{}));
  off=room.onPeers(render);render();return true;
 }
@@ -220,43 +286,14 @@ function render(){
  if(H.ph==='lobby'){
   app.className='narrow';app.innerHTML=head+`<div class="panel"><div class="mut" style="text-align:center">Код комнаты — сообщите его друзьям</div><div class="big">${[...code].map(ch=>`<i>${ch}</i>`).join('')}</div><button class="sec" id="cp">🔗 Пригласить друзей</button></div>
   <div class="panel"><h3>Игроки (${pl.length})</h3>${pl.map(p=>`<div class="attr"><div class="v pr">${av(p.presence.n)}<span>${esc(p.presence.n)}${p.isMe?' · вы':''}</span>${p.presence.h?' <span class="tag ac">основатель</span>':''}</div></div>`).join('')}</div>
+  <div class="panel"><h3>Номер персонажа</h3><div class="mut" style="text-align:center">Два игрока не могут иметь один номер. Не выбрали — номер выдадут случайно.</div><div class="nums">${pl.map((_,i)=>{const n=i+1,t=pl.some(q=>!q.isMe&&q.presence.no===n);return `<button class="nb ${me.presence.no===n?'on':''}" data-no="${n}" ${t?'disabled':''}>${n}</button>`}).join('')}</div></div>
   ${isHost?`<button id="go" ${pl.length<2?'disabled':''}>Начать игру${pl.length<2?' (нужно минимум 2)':''}</button>`:'<div class="mut" style="text-align:center">Ждём, пока основатель начнёт игру…</div>'}`;
   $('#lv').onclick=leave;bindHn();
-  $('#cp').onclick=invite;if(isHost)$('#go').onclick=()=>{const o=mkBk(pl.length);room.presence({ph:'play',rd:1,out:[],res:'',cat:Math.random()*CAT.length|0,bk:o.b,seats:o.s})};
+  $('#cp').onclick=invite;document.querySelectorAll('[data-no]').forEach(e=>e.onclick=()=>room.presence({no:+e.dataset.no}));if(isHost)$('#go').onclick=()=>{const o=mkBk(pl.length);room.presence({ph:'play',rd:1,out:[],res:'',ord:mkOrd(pl),cat:Math.random()*CAT.length|0,bk:o.b,seats:o.s})};
   return;
  }
- if(H.res&&H.res!==lastRes){lastRes=H.res;splash(H)}
- const ch=pl.some(p=>{const n=Object.keys(p.presence.r||{}).length,o=prevR[p.peer];prevR[p.peer]=n;const c=o!==undefined&&n>o;if(c)prevR[p.peer+'f']=1;else if(o!==undefined&&n===o&&!prevR[p.peer+'k'])delete prevR[p.peer+'f'];return c&&!p.isMe});if(ch)sfx('rv');
- const c=CAT[H.cat],b=H.bk,ph={play:'Раскрытие характеристик',vote:'Голосование',end:'Игра окончена'}[H.ph];
- const canRv=H.ph==='play'&&!meOut&&me.presence.rc<H.rd;
- let h=head+`<div class="stats"><div><b>${H.seats}</b>${nn(H.seats,['место','места','мест'])} в бункере</div><div><b>${al.length}</b>${nn(al.length,['игрок','игрока','игроков'])} в игре</div></div>
- ${bkHtml(c,b,H.seats)}
- ${H.res?`<div class="panel"><b>${esc(H.res)}</b></div>`:''}`;
- if(H.ph==='end'){h+=`<div class="panel safe"><h3>🏆 Выжившие в бункере</h3><div style="margin-top:8px">${al.map(p=>`<span class="surv">${av(p.presence.n)}${esc(p.presence.n)}</span>`).join('')}</div></div>`}
- const myv=me.presence.v,IC={pro:'💼',bio:'🧬',trait:'🎭',hp:'❤️',hob:'🎲',fear:'😱',skill:'🛠️',bag:'🎒',fact:'📌'},f0=v=>esc(String(v).split('~')[0]);
- h+=`<div class="sec"><h3>🪪 Ваша карточка${meOut?' · исключён':''}</h3><div class="mut">Нажмите на замок, чтобы раскрыть характеристику остальным</div></div><div class="card">`
- +K.map(([k,l])=>{const rv=k in me.presence.r,hs=String(card[k]).includes('~');return `<div class="ar"><div class="al">${l}${hs?`<button class="ib" data-ih="${k}">i</button>`:''}</div><div class="av"><button class="lk ${rv?'on':''}" data-rv="${k}">${LK(rv)}</button><div>${fv(card[k],openH.has(k))}</div></div></div>`}).join('')
- +`</div><div class="sec"><h3>📊 Таблица раскрытий</h3></div><div class="tw"><table><tr><th>Игрок</th>${K.map(([k,l])=>`<th>${IC[k]}<br>${l}</th>`).join('')}${H.ph==='vote'?'<th>Голос</th>':''}</tr>`
- +pl.map(p=>{const o=!alive(p),r=p.presence.r;return `<tr class="${o?'out':''} ${p.isMe?'me':''} ${prevR[p.peer+'f']?'fl':''} ${myv===p.peer?'sel':''}"><td>${av(p.presence.n)}${esc(p.presence.n)}${o?' ❌':''}</td>${K.map(([k])=>k in r?`<td>${f0(r[k])}</td>`:'<td class="e">•••</td>').join('')}${H.ph==='vote'?`<td>${!meOut&&!o&&!p.isMe?`<button class="sm ${myv===p.peer?'':'sec'}" data-vt="${p.peer}">${myv===p.peer?'✔ Ваш':'Исключить'}</button>`:''}</td>`:''}</tr>`}).join('')+`</table></div>`;
- if(isHost){
-  if(H.ph==='play')h+=`<button id="hv">К голосованию</button>`;
-  if(H.ph==='vote'){const n=al.filter(p=>p.presence.v).length;h+=`<div class="mut" style="text-align:center;margin-top:10px">Проголосовало: ${n} из ${al.length}</div><button id="ht">Подвести итоги</button>`}
- }else if(H.ph==='play')h+=`<div class="mut" style="text-align:center;margin-top:10px">Основатель начнёт голосование, когда все раскроются</div>`;
- app.className='';app.innerHTML=h;$('#lv').onclick=leave;bindHn();
- document.querySelectorAll('[data-rv]').forEach(e=>e.onclick=()=>{const k=e.dataset.rv;if(k in me.presence.r)return;if(!canRv)return toast(meOut?'Вы исключены':H.ph!=='play'?'Сейчас раскрывать нельзя':'В этом раунде вы уже раскрыли характеристику');sfx('unlock');navigator.vibrate&&navigator.vibrate(30);room.presence({r:Object.assign({},me.presence.r,{[k]:card[k]}),rc:H.rd})});
- document.querySelectorAll('[data-ih]').forEach(e=>e.onclick=()=>{const k=e.dataset.ih;openH.has(k)?openH.delete(k):openH.add(k);render()});
- document.querySelectorAll('[data-vt]').forEach(e=>e.onclick=()=>{sfx('vote');room.presence({v:e.dataset.vt})});
- if($('#hv'))$('#hv').onclick=()=>room.presence({ph:'vote'});
- if($('#ht'))$('#ht').onclick=()=>{
-  const cnt={};al.forEach(p=>{const v=p.presence.v;if(v&&al.some(x=>x.peer===v))cnt[v]=(cnt[v]||0)+1});
-  let ids=Object.keys(cnt),mx=Math.max(0,...ids.map(i=>cnt[i]));
-  let top=ids.filter(i=>cnt[i]===mx);if(!top.length)top=al.map(p=>p.peer);
-  const vic=pick(top),vp=al.find(p=>p.peer===vic),out=H.out.concat(vic),left=al.length-1;
-  const end=left<=H.seats;
-  room.presence({out,rd:H.rd+1,ph:end?'end':'play',res:'Исключён из бункера: '+vp.presence.n+(mx?' ('+mx+' '+nn(mx,['голос','голоса','голосов'])+')':' (жребий)')+(end?'. Бункер заполнен!':'')});
- };
+ return game(H,pl,me,alive,head)
 }
-
 (function(){
  const W=800,sv=document.querySelector('#bg svg');let o='';
  [['#0d140f',60,130,14,34,0],['#060907',90,170,18,46,1]].forEach(([c,lo,hi,mn,mx,k])=>{let x=-10,p='M-10 200';
