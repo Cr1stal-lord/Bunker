@@ -24,7 +24,7 @@ const readBody = req => new Promise(ok => {
   let s = ''; req.on('data', d => { s += d; if (s.length > 20000) req.destroy(); });
   req.on('end', () => { try { ok(JSON.parse(s || '{}')); } catch { ok({}); } });
 });
-const okCode = c => /^\d{3}$/.test(c), okId = i => /^[\w]{6,40}$/.test(i);
+const okCode = c => /^[A-Za-z0-9]{3}$/.test(c), okId = i => /^[\w]{6,40}$/.test(i);
 
 http.createServer(async (req, res) => {
   const u = new URL(req.url, 'http://x');
